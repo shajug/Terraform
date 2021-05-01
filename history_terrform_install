@@ -1,0 +1,32 @@
+    1  ls
+    2  aws
+    3  aws sts get-caller-identity
+    4  git
+    5  yum install git
+    6  git clone https://github.com/shajug/Terraform.git
+    7  ls
+    8  ls Terraform/
+    9  ls Terraform/.git/
+   10  ls Terraform/.git/description
+   11  ls Terraform/.git/config 
+   12  cat Terraform/.git/config
+   13  wget https://releases.hashicorp.com/terraform/0.14.8/terraform_0.14.8_linux_amd64.zip
+   14  ls
+   15  unzip terraform_0.14.8_linux_amd64.zip 
+   16  ls
+   17  ls /usr/local/bin 
+   18  ls /usr/local/bin
+   20  mv  terraform  /usr/local/bin
+   21  terraform 
+   22  ld
+   23  ll
+   24  terraform -v
+   25  ll
+   26  cd Terraform/
+   27  git status
+   30  git config
+   31  git config --global shajug
+   32  git config --global
+   33  git config --global user.name "Shaju"
+   34   git config --list
+   44  ls

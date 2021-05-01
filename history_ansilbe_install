@@ -1,0 +1,23 @@
+  224  wget https://releases.ansible.com/ansible/rpm/release/epel-7-x86_64/ansible-2.9.17-1.el7.ans.noarch.rpm
+  225  ls
+  227  rpm -ivh ansible-2.9.17-1.el7.ans.noarch.rpm
+  229  yum install python-paramiko* sshpass*
+  231  yum repolist
+  232  vi /etc/yum.repos.d/amzn2-extras.repo 
+  233* vi /etc/yum.conf
+  234  vi /etc/yum.repos.d/amzn2-core.repo 
+  235  yum install python-paramiko* sshpass*
+  236  yum repolist
+  237  vi /etc/yum.repos.d/amzn2-extras.repo 
+  238  yum repolist
+  239  yum install python-paramiko* sshpass*
+  240  yum install https://centos.pkgs.org/7/centos-x86_64/python-paramiko-2.1.1-9.el7.noarch.rpm.html
+  241  wget https://centos.pkgs.org/7/centos-x86_64/python-paramiko-2.1.1-9.el7.noarch.rpm.html
+  242  wget https://centos.pkgs.org/7/centos-aarch64/python-paramiko-2.1.1-9.el7.noarch.rpm.html
+  243  yum install epel-release
+  244  yum repolist
+  245   sudo amazon-linux-extras install epel
+  246  rpm -qa |grep -i ansi
+  247  yum install python-paramiko* sshpass*
+  248  rpm -ivh ansible-2.9.17-1.el7.ans.noarch.rpm 
+  249  ansible
